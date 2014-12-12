@@ -13,33 +13,33 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity {
     Button bCreateSet;
 
-    EditText etExcersiceOneName;
-    EditText etExcersiceTwoName;
-    EditText etExcersiceThreeName;
+    EditText etExerciseOneName;
+    EditText etExerciseTwoName;
+    EditText etExerciseThreeName;
 
-    EditText etTargetRepetitionsExcersiceOne;
-    EditText etTargetRepetitionsExcersiceTwo;
-    EditText etTargetRepetitionsExcersiceThree;
+    EditText etTargetRepetitionsExerciseOne;
+    EditText etTargetRepetitionsExerciseTwo;
+    EditText etTargetRepetitionsExerciseThree;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bCreateSet = (Button)findViewById(R.id.bCreateSet);
-        etExcersiceOneName   = (EditText)findViewById(R.id.etExcersiceOneName);
-        etExcersiceTwoName   = (EditText)findViewById(R.id.etExcersiceTwoName);
-        etExcersiceThreeName   = (EditText)findViewById(R.id.etExcersiceThreeName);
+        etExerciseOneName   = (EditText)findViewById(R.id.etExerciseOneName);
+        etExerciseTwoName   = (EditText)findViewById(R.id.etExerciseTwoName);
+        etExerciseThreeName   = (EditText)findViewById(R.id.etExerciseThreeName);
 
-        etTargetRepetitionsExcersiceOne   = (EditText)findViewById(R.id.etTargetRepetitionsExcersiceOne);
-        etTargetRepetitionsExcersiceTwo   = (EditText)findViewById(R.id.etTargetRepetitionsExcersiceTwo);
-        etTargetRepetitionsExcersiceThree   = (EditText)findViewById(R.id.etTargetRepetitionsExcersiceThree);
+        etTargetRepetitionsExerciseOne   = (EditText)findViewById(R.id.etTargetRepetitionsExerciseOne);
+        etTargetRepetitionsExerciseTwo   = (EditText)findViewById(R.id.etTargetRepetitionsExerciseTwo);
+        etTargetRepetitionsExerciseThree   = (EditText)findViewById(R.id.etTargetRepetitionsExerciseThree);
 
         bCreateSet.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         TextView myTextView =
                                 (TextView)findViewById(R.id.status);
-                        myTextView.setText("Button clicked" + etExcersiceOneName.getText());
+                        myTextView.setText("Button clicked" + etExerciseOneName.getText());
                     }
                 }
         );

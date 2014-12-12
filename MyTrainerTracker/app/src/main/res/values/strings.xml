@@ -5,9 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="SetName">Set Name</string>
-    <string name="ExcersiceOneName">Excersice One Name</string>
-    <string name="ExcersiceTwoName">Excersice Two Name</string>
-    <string name="ExcersiceThreeName">Excersice Three Name</string>
+    <string name="ExerciseOneName">Exercise One Name</string>
+    <string name="ExerciseTwoName">Exercise Two Name</string>
+    <string name="ExerciseThreeName">Exercise Three Name</string>
     <string name="Reps">Target Repetitions</string>
     <string name="CreateNewSet">Create New Set</string>
 
